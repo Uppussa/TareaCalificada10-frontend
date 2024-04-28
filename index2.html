@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <title>CREAR CRUD</title>
+</head>
+<body>
+    <h1>Crear Usuario</h1>
+    <form id="formCrearUsuario">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label>foto</label>
+            <input type="file" name="foto">
+        </div>
+        <div>
+            <label>Roles:</label>
+            <select name="rol_id"> 
+                <option value="1">Supervisor</option>
+                <option value="2">Contoller</option>
+                <option value="3">Maestro</option>
+            </select>
+        </div>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
